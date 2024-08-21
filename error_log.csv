@@ -1,0 +1,5 @@
+timestamp,error_code,error_message
+2024-08-20T12:47:05,404,Not Found: /submit
+2024-08-20T12:48:00,500,Internal Server Error: /contact
+2024-08-20T12:51:20,401,Unauthorized: /login
+2024-08-20T12:54:00,403,Forbidden: /settings
