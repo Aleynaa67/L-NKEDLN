@@ -1,11 +1,10 @@
-ip_address,request_type,response_code,timestamp,page_accessed
-192.168.1.1,GET,200,2024-08-20T12:45:30,/home
-192.168.1.2,GET,200,2024-08-20T12:46:15,/about
-192.168.1.1,POST,404,2024-08-20T12:47:05,/submit
-192.168.1.3,GET,500,2024-08-20T12:48:00,/contact
-192.168.1.4,GET,200,2024-08-20T12:48:50,/services
-192.168.1.2,GET,200,2024-08-20T12:50:10,/home
-192.168.1.5,POST,401,2024-08-20T12:51:20,/login
-192.168.1.1,GET,200,2024-08-20T12:52:30,/dashboard
-192.168.1.4,GET,200,2024-08-20T12:53:15,/about
-192.168.1.3,GET,403,2024-08-20T12:54:00,/settings
+ip_address,request_type,response_code,timestamp,page_accessed,description
+192.168.1.1,GET,500,2024-08-20T12:48:00,/contact,"Internal Server Error, page could not be loaded. This error was caused by an unexpected issue on the server side and an error message was shown to the user."
+192.168.1.2,GET,500,2024-08-20T12:49:05,/api/data,"Internal Server Error, server did not respond. An error occurred during the API call and data could not be provided to the user."
+192.168.1.3,GET,500,2024-08-20T12:50:00,/contact,"Recurring server error, page could not be loaded. Same cause as the previous error, an error message was shown to the user."
+192.168.1.4,POST,401,2024-08-20T12:51:20,/login,"Authentication error, login failed. The user could not log in with the provided credentials."
+192.168.1.5,POST,404,2024-08-20T12:52:15,/submit,"Page not found, no information provided to the user. The page requested by the user does not exist, an error message was shown."
+192.168.1.6,GET,404,2024-08-20T12:53:10,/about,"Requested page does not exist, an error message was shown to the user. Page not found and error information was provided to the user."
+192.168.1.7,GET,200,2024-08-20T12:54:20,/home,Page successfully loaded. The requested data was successfully provided to the user.
+192.168.1.8,GET,404,2024-08-19T11:47:05,/oldpage,"Old page, not found. The old page the user attempted to access does not exist, an error message was shown."
+192.168.1.9,GET,200,2024-08-19T11:50:00,/contact,"Page successfully loaded, all data was provided. Accurate information was provided to the user."

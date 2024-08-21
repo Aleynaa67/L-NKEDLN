@@ -1,5 +1,10 @@
 timestamp,error_code,error_message
-2024-08-20T12:47:05,404,Not Found: /submit
-2024-08-20T12:48:00,500,Internal Server Error: /contact
-2024-08-20T12:51:20,401,Unauthorized: /login
-2024-08-20T12:54:00,403,Forbidden: /settings
+2024-08-20T12:48:00,500,"Internal Server Error: /contact - Server error, page could not be loaded. This error was caused by an unexpected issue on the server side and an error message was shown to the user."
+2024-08-20T12:49:05,500,"Internal Server Error: /api/data - Data provision error, server did not respond. An error occurred during the API call and data could not be provided to the user."
+2024-08-20T12:50:00,500,"Internal Server Error: /contact - Recurring server error, page could not be loaded. Same cause as the previous error, an error message was shown to the user."
+2024-08-20T12:51:20,401,"Unauthorized: /login - Authentication error, login failed. The user could not log in with the provided credentials."
+2024-08-20T12:52:15,404,"Not Found: /submit - Page not found, no information provided to the user. The page requested by the user does not exist, an error message was shown."
+2024-08-20T12:53:10,404,"Not Found: /about - Requested page does not exist, an error message was shown to the user. Page not found and error information was provided to the user."
+2024-08-20T12:54:20,200,OK: /home - Page successfully loaded. The requested data was successfully provided to the user.
+2024-08-19T11:47:05,404,"Not Found: /oldpage - Old page, not found. The old page the user attempted to access does not exist, an error message was shown."
+2024-08-19T11:50:00,200,"OK: /contact - Page successfully loaded, all data was provided. Accurate information was provided to the user."
